@@ -85,7 +85,7 @@ public class Login {
     return false;
         }
     }
-    // Return login status
+    // Responds to login status
     public String returnLoginStatus (String username, String password){
         if (loginUser(username, password)) {
             return "Welcome " + firstName + "" + lastName +", it is great to see you";
