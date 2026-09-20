@@ -77,7 +77,7 @@ public class Login {
 
     }
     }
-    // login user
+    // login for User
     public boolean loginUser (String username, String password) {
         if (this.username !=null && this.password !=null && this.username.equals(username) && this.password.equals(password)) {
             return true;
