@@ -30,7 +30,7 @@ public class Login {
         boolean hasNumber = false;
         boolean hasSpecialCharacter = false;
         
-        for (int i = 0; i < password.length(); i++){char character = password.charAt(i);
+        for(int i = 0; i < password.length(); i++){char character = password.charAt(i);
         
         if(Character.isUpperCase(character)) {hasCapitalLetter = true;}
         
