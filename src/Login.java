@@ -40,7 +40,7 @@ public class Login {
 
         }
          
-        if (hasCapitalLetter && hasNumber && hasSpecialCharacter){return true;
+        if(hasCapitalLetter && hasNumber && hasSpecialCharacter){return true;
         } else {
             return false;
         }
@@ -79,7 +79,7 @@ public class Login {
     }
     // login for User
     public boolean loginUser (String username, String password) {
-        if (this.username !=null && this.password !=null && this.username.equals(username) && this.password.equals(password)) {
+        if(this.username !=null && this.password !=null && this.username.equals(username) && this.password.equals(password)) {
             return true;
         }else{
     return false;
