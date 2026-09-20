@@ -16,8 +16,7 @@ public class Login {
     }
     //Check username
     public boolean checkUserName(String username){
-        if (username != null && username.contains("_") && username.length() <=5){
-            return true;
+        if (username != null && username.contains("_") && username.length() <=5){return true;
         } else {
             return false;
         }
@@ -56,7 +55,7 @@ public class Login {
             }
     }
     
-        // Register user
+        //  Return Register  for user
     public String registerUser(String username, String password, String cellPhoneNumber) {
         
         if (!checkUserName(username)) {
