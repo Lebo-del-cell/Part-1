@@ -6,7 +6,7 @@ public class ChatApp {
     public static void main(String[] args) {
        
         //Create an input listener
-        Scanner input = new Scanner(System.in);
+        Scanner input= new Scanner(System.in);
         
         // Get personal information
         System.out.println("========================");
